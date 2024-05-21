@@ -1,9 +1,3 @@
 venv
 estrutura.txt
-__pycache__
-controller.py
-view.py
-dao.py
-model.py
-categoria.txt
-venda.txt
+
