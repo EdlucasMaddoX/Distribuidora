@@ -69,8 +69,8 @@ class DaoEstoque:
         est = []
         if len(cls.estoque) > 0:
             for i in cls.estoque:
-                est.append(Estoque(Produtos(i[0], i[1], i[2], i[3])))
-            return est
+                est.append(Estoque(Produtos(i[0], i[1], i[2]), i[3]))
+        return est
         
 # Classe para salvar e ler arquivo de fornecedor
 class DaoFornecedor:
@@ -134,4 +134,4 @@ class DaoFuncionário:
         for i in funcionários:
             funcionários.append(Funcionário(i[0], i[1], i[2], i[3], i[4], i[5]))
         return funcionários
-    
+
